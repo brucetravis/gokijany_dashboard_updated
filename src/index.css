@@ -1,4 +1,18 @@
-body {
+html, body {
+  height: 100%;
+}
+
+body, #root {
+  background-image: url(./images/background_4.jpg);
+  background-position: center;
+  /* background-size: contain; */
+  background-size: cover;
+  background-attachment: fixed;
+  backdrop-filter: blur(5px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',

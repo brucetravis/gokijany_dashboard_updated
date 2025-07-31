@@ -10,11 +10,15 @@ import {
 } from 'lucide-react';
 import { Tooltip } from 'react-tooltip';
 import { motion } from 'framer-motion'
+import { useNavigate } from 'react-router-dom';
 
 export default function Sidebar() {
 
   // state to control expanding of the sidebar
   const [ isExpanded, setisExpanded ] = useState(false) // Initial state is false
+
+  // function to navigate to other pages
+  const navigate = useNavigate()
 
   return (
     <motion.div
@@ -32,7 +36,8 @@ export default function Sidebar() {
         <LayoutDashboard 
           size={25}
           data-tooltip-id="dashboard-tooltip"
-          className="icon icon-dashboard" 
+          className="icon icon-dashboard"
+          onClick={() => navigate('/')}
         />
       </div>
 
