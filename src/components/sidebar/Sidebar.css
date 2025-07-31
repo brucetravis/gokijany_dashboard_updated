@@ -1,0 +1,105 @@
+.sidebar_container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  backdrop-filter: blur(20px);
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  width: 60px;
+  align-items: center;
+  gap: 30px;
+}
+
+.icon {
+  color: #cfd8dc;
+  transition: color 0.3s ease;
+  cursor: pointer;
+}
+
+.icon-dashboard:hover { color: #4ADE80; }
+.icon-categories:hover { color: #60a5fA; }
+.icon-tracking:hover { color: #4d13fa; }
+.icon-power:hover { color: #ff0501; }
+.icon-report:hover { color: #38BDF8; }
+.icon-logout:hover { color: #F87171; }
+
+.custom-tooltip {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #ffffff;
+  font-size: 12px;
+  padding: 6px 10px;
+  border-radius: 8px;
+  /* backdrop-filter: blur(10px); */
+}
+
+.custom-tooltip.tooltip-dashboard {
+    background: rgba(255, 255, 255, 0.05);
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(20px);
+    font-size: 18px;
+    /* background-color: #4ADE80; */
+    /* color: #000; */
+    color: #07f55e;
+}
+
+.custom-tooltip.tooltip-categories {
+    background: rgba(255, 255, 255, 0.05);
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(20px);
+    font-size: 18px;
+    /* background-color: #60a5fA; */
+    /* color: #fff; */
+    color: #006aec;
+}
+
+.custom-tooltip.tooltip-tracking {
+    background: rgba(255, 255, 255, 0.05);
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(20px);
+    font-size: 20px;
+    /* background-color: #4d13fa;
+    color: #fff; */
+    color: #4d13fa;
+}
+
+.custom-tooltip.tooltip-power {
+    background: rgba(255, 255, 255, 0.05);
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(20px);
+    font-size: 18px;
+    /* background-color: #ff0501;
+    color: #fff; */
+    color: #ff0501;
+}
+
+.custom-tooltip.tooltip-report {
+    background: rgba(255, 255, 255, 0.05);
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(20px);
+    font-size: 18px;
+    /* background-color: #38BDF8;
+    color: #000; */
+    color: #00b3ffe0; 
+}
+
+.custom-tooltip.tooltip-logout {
+    background: rgba(255, 255, 255, 0.05);
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(20px);
+    font-size: 18px;
+    /* background-color: #F87171;
+    color: #000; */
+    color: #F87171
+}
+
+
+/* .custom-tooltip.tooltip-report:hover,
+.custom-tooltip.tooltip-tracking:hover,
+.custom-tooltip.tooltip-power:hover,
+.custom-tooltip.tooltip-logout:hover,
+.custom-tooltip.tooltip-dashboard:hover,
+.custom-tooltip.tooltip-categories:hover {
+    transition: color .3s ease;
+    cursor: pointer;;
+} */
