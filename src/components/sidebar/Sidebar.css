@@ -17,12 +17,12 @@
   cursor: pointer;
 }
 
-.icon-dashboard:hover { color: #4ADE80; }
-.icon-categories:hover { color: #60a5fA; }
-.icon-tracking:hover { color: #4d13fa; }
-.icon-power:hover { color: #ff0501; }
-.icon-report:hover { color: #38BDF8; }
-.icon-logout:hover { color: #F87171; }
+.icon-dashboard:hover { color: #4ADE80; transform: scale(1.01) }
+.icon-categories:hover { color: #60a5fA; transform: scale(1.01) }
+.icon-tracking:hover { color: #4d13fa; transform: scale(1.01) }
+.icon-power:hover { color: #ff0501; transform: scale(1.01) }
+.icon-report:hover { color: #38BDF8; transform: scale(1.01) }
+.icon-logout:hover { color: #F87171; transform: scale(1.01) }
 
 .custom-tooltip {
   background-color: rgba(0, 0, 0, 0.8);

@@ -53,7 +53,8 @@ export default function Sidebar() {
         <Users 
           size={25}
           data-tooltip-id="tracking-tooltip"
-          className="icon icon-tracking" 
+          className="icon icon-tracking"
+          onClick={() => navigate('/employee_tracking')}
         />
       </div>
 
