@@ -71,6 +71,7 @@ export default function Sidebar() {
           size={25}
           data-tooltip-id="report-tooltip"
           className="icon icon-report" 
+          onClick={() => navigate('/emission')}
         />
       </div>
 
