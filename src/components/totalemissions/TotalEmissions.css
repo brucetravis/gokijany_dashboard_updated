@@ -1,0 +1,206 @@
+.emissions-card {
+    background: white;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    border: 1px solid #e5e7eb;
+    min-width: 280px;
+    position: relative;
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    gap: 12px;
+}
+
+.card-title {
+    font-size: 16px;
+    font-weight: 700;
+    color: #000000;
+    margin: 0;
+    line-height: 1.4;
+    flex: 1;
+}
+
+.date-filter {
+    position: relative;
+    flex-shrink: 0;
+}
+
+.date-button {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 12px;
+    background: none;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    font-size: 14px;
+    color: #6b7280;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.date-button:hover {
+    border-color: #9ca3af;
+    background-color: #f9fafb;
+}
+
+.chevron {
+    transition: transform 0.2s ease;
+}
+
+.chevron.rotated {
+    transform: rotate(180deg);
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background: white;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+    min-width: 160px;
+    margin-top: 4px;
+}
+
+.dropdown-item {
+    display: block;
+    width: 100%;
+    padding: 8px 12px;
+    text-align: left;
+    background: none;
+    border: none;
+    font-size: 14px;
+    color: #374151;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.dropdown-item:hover {
+    background-color: #f3f4f6;
+}
+
+.dropdown-item:first-child {
+    border-radius: 8px 8px 0 0;
+}
+
+.dropdown-item:last-child {
+    border-radius: 0 0 8px 8px;
+}
+
+.card-content {
+    border-radius: 8px;
+    padding: 20px;
+    color: white;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    width: 100%;
+}
+
+.value-section {
+    width: 60%;
+    height: 10vh;
+    background-color: #3f3f3f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    margin-bottom: 16px;
+}
+
+.icon-container {
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.value-display {
+    flex: 1;
+}
+
+.main-value {
+    font-size: 32px;
+    font-weight: 700;
+    color: white;
+    line-height: 1;
+}
+
+.change-indicator {
+    display: flex;
+    justify-content: flex-end;
+    width: 40%;
+    height: 10vh;
+    background-color: #000000;
+    align-items: center;
+    justify-content: center;
+}
+
+.change-badge {
+    display: flex;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.change-percentage {
+    font-weight: 600;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .emissions-card {
+    padding: 16px;
+    min-width: auto;
+    width: 100%;
+    }
+
+    .card-header {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 12px;
+    }
+
+    .date-filter {
+    align-self: flex-end;
+    }
+
+    .card-content {
+    padding: 16px;
+    }
+
+    .main-value {
+    font-size: 28px;
+    }
+
+    .value-section {
+    gap: 12px;
+    }
+
+    .icon-container {
+    padding: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .card-title {
+    font-size: 15px;
+    }
+
+    .main-value {
+    font-size: 24px;
+    }
+
+    .change-badge {
+    font-size: 11px;
+    padding: 4px 8px;
+    }
+}
+     
