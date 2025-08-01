@@ -1,0 +1,95 @@
+.registration-page {
+    display: flex;
+    align-items: center;
+}
+
+
+.registration-image {
+    background-image: url(../../images/reg-1.jpeg);
+    background-position: center;
+    /* background-size: cover; */
+    background-size: cover;
+    /* background-attachment: fixed; */
+    /* height: inherit; */
+    height: 100vh;
+    width: 60vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.registration-image::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    background-color: rgba(29, 27, 27, 0.5);
+}
+
+
+.image-overlay-content {
+    position: absolute;
+    z-index: 3;
+}
+
+.reg-image {
+    height: 200px;
+    width: 250px;
+    object-fit: cover;
+}
+
+.signup-btn {
+    color: white;
+    background-color: #05a653;
+    padding: 20px 35px;
+    border-radius: 10px;
+    border: none;
+}
+
+.registration-form-div {
+    height: 100vh;
+    width: 40vw;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.registration-form-div form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.registration-form-div form input {
+    width: 450px;
+    height: 60px;
+    border-radius: 10px;
+    padding-left: 5px;
+    border: 2px solid grey;
+}
+
+
+.registration-form-div form input:focus {
+    outline: none;
+}
+
+input[type="email"] {
+    margin-bottom: 12vh
+}
+
+.registration-form-div form .login-button {
+    background-color:#05a653;
+    color: #fff;
+    transition: all 0.2s ease;
+}
+
+
+.registration-form-div form .login-button:hover {
+    transform: scale(1.03);
+    cursor: pointer;
+}
+
+

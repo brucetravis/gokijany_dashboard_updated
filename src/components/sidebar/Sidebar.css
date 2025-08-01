@@ -2,8 +2,8 @@
   display: flex;
   flex-direction: column;
   padding: 20px;
-  backdrop-filter: blur(20px);
-  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(70px);
+  background: rgba(255, 255, 255, 0.137);
   border-radius: 12px;
   border: 2px solid rgba(255, 255, 255, 0.2);
   width: 60px;
@@ -12,17 +12,17 @@
 }
 
 .icon {
-  color: #cfd8dc;
+  color: #bef1a7;
   transition: color 0.3s ease;
   cursor: pointer;
 }
 
 .icon-dashboard:hover { color: #4ADE80; transform: scale(1.01) }
-.icon-categories:hover { color: #60a5fA; transform: scale(1.01) }
+.icon-categories:hover { color: #499afd; transform: scale(1.01) }
 .icon-tracking:hover { color: #4d13fa; transform: scale(1.01) }
 .icon-power:hover { color: #ff0501; transform: scale(1.01) }
-.icon-report:hover { color: #38BDF8; transform: scale(1.01) }
-.icon-logout:hover { color: #F87171; transform: scale(1.01) }
+.icon-report:hover { color: #00b3ff; transform: scale(1.01) }
+.icon-logout:hover { color: #f84242; transform: scale(1.01) }
 
 .custom-tooltip {
   background-color: rgba(0, 0, 0, 0.8);
@@ -90,7 +90,7 @@
     font-size: 18px;
     /* background-color: #F87171;
     color: #000; */
-    color: #F87171
+    color: #f84242
 }
 
 

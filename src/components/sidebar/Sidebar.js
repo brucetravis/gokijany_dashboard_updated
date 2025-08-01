@@ -29,7 +29,7 @@ export default function Sidebar() {
       // initial={{ width: 80 }}
       animate={{ height: 350, opacity: 1 }}
       // animate={{ width: isExpanded ? 250: 80 }}
-      transition={{ duration: 0.4, delay: 1 }}
+      transition={{ duration: 0.4, delay: .5 }}
       className="sidebar_container"
     >
       <div  >
@@ -37,7 +37,7 @@ export default function Sidebar() {
           size={25}
           data-tooltip-id="dashboard-tooltip"
           className="icon icon-dashboard"
-          onClick={() => navigate('/')}
+          onClick={() => navigate('/home')}
         />
       </div>
 
