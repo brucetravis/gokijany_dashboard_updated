@@ -1,0 +1,229 @@
+.tasks-card {
+    backdrop-filter: blur(70px);
+    background: rgba(0, 166, 84, 0.137);background: white;
+    border-radius: 12px;
+    padding: 24px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    border: 1px solid #e5e7eb;
+    width: 100%;
+    max-width: 500px;
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 24px;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.card-title {
+    font-size: 18px;
+    font-weight: 600;
+    color: #111827;
+    margin: 0;
+    flex: 1;
+    min-width: 200px;
+}
+
+.filters {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.filter-dropdown {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 8px 12px;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    background: white;
+    cursor: pointer;
+    font-size: 14px;
+    color: #374151;
+    transition: border-color 0.2s ease;
+    min-width: 80px;
+}
+
+.filter-dropdown:hover {
+    border-color: #00a654;
+}
+
+.chart-container {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.chart-wrapper {
+    position: relative;
+    height: 250px;
+    width: 100%;
+}
+
+.chart-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    pointer-events: none;
+}
+
+.total-number {
+    font-size: 28px;
+    font-weight: 700;
+    color: #111827;
+    line-height: 1;
+}
+
+.total-label {
+    font-size: 12px;
+    color: #ffffff;
+    margin-top: 4px;
+}
+
+.legend-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+    color: #374151;
+}
+
+.legend-color {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    flex-shrink: 0;
+}
+.recharts-responsive{
+    width: 100% !important;
+    height: 100% !important;
+}
+.legend-text {
+    flex: 1;
+    font-size: 13px;
+    color: #ffffff !important;
+}
+
+.tooltip {
+    background: white;
+    padding: 8px 12px;
+    border: 1px solid #e5e7eb;
+    border-radius: 6px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.tooltip-label {
+    font-weight: 600;
+    color: #111827;
+    margin: 0 0 4px 0;
+    font-size: 13px;
+}
+
+.tooltip-value {
+    color: #6b7280;
+    margin: 0;
+    font-size: 12px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .tasks-card {
+    padding: 20px;
+    max-width: 100%;
+    }
+
+    .card-header {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 12px;
+    }
+
+    .card-title {
+    font-size: 16px;
+    min-width: auto;
+    }
+
+    .filters {
+    justify-content: flex-start;
+    }
+
+    .filter-dropdown {
+    font-size: 13px;
+    padding: 6px 10px;
+    }
+
+    .chart-wrapper {
+    height: 220px;
+    }
+
+    .total-number {
+    font-size: 24px;
+    }
+
+    .legend-container {
+    grid-template-columns: 1fr;
+    gap: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .tasks-card {
+    padding: 16px;
+    }
+
+    .card-title {
+    font-size: 15px;
+    }
+
+    .chart-wrapper {
+    height: 200px;
+    }
+
+    .total-number {
+    font-size: 22px;
+    }
+
+    .total-label {
+    font-size: 11px;
+    }
+
+    .legend-item {
+    font-size: 13px;
+    }
+
+    .legend-text {
+    font-size: 12px;
+    }
+
+    .filters {
+    flex-direction: column;
+    gap: 8px;
+    }
+
+    .filter-dropdown {
+    width: 100%;
+    justify-content: space-between;
+    }
+}
+
+@media (max-width: 360px) {
+    .chart-wrapper {
+    height: 180px;
+    }
+
+    .total-number {
+    font-size: 20px;
+    }
+}
