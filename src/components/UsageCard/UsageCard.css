@@ -1,0 +1,176 @@
+.usage-card {
+    background: white;
+    border-radius: 12px;
+    padding: 24px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    border: 1px solid #e5e7eb;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 24px;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.card-title {
+    font-size: 18px;
+    font-weight: 600;
+    color: #111827;
+    margin: 0;
+    line-height: 1.4;
+}
+
+.filter-controls {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.filter-dropdown {
+    position: relative;
+}
+
+.filter-button {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 12px;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    background: white;
+    cursor: pointer;
+    font-size: 14px;
+    color: #374151;
+    transition: all 0.2s ease;
+    min-width: 120px;
+    justify-content: space-between;
+}
+
+.filter-button:hover {
+    border-color: #00a654;
+    box-shadow: 0 0 0 3px rgba(0, 166, 84, 0.1);
+}
+
+.dropdown-arrow {
+    transition: transform 0.2s ease;
+}
+
+.dropdown-arrow.rotated {
+    transform: rotate(180deg);
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: white;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+    margin-top: 4px;
+}
+
+.dropdown-item {
+    padding: 8px 12px;
+    font-size: 14px;
+    color: #374151;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.dropdown-item:hover {
+    background-color: #f3f4f6;
+}
+
+.dropdown-item:first-child {
+    border-radius: 6px 6px 0 0;
+}
+
+.dropdown-item:last-child {
+    border-radius: 0 0 6px 6px;
+}
+
+.chart-container {
+    flex: 1;
+    min-height: 0;
+}
+
+.custom-tooltip {
+    background: white;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    padding: 12px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+.tooltip-label {
+    font-weight: 600;
+    margin: 0 0 8px 0;
+    color: #111827;
+}
+
+.tooltip-item {
+    margin: 4px 0;
+    font-size: 14px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .usage-card {
+    padding: 16px;
+    height: 350px;
+    }
+
+    .card-header {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 16px;
+    }
+
+    .card-title {
+    font-size: 16px;
+    }
+
+    .filter-controls {
+    justify-content: space-between;
+    }
+
+    .filter-button {
+    min-width: 100px;
+    font-size: 13px;
+    padding: 6px 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .usage-card {
+    padding: 12px;
+    height: 320px;
+    }
+
+    .card-title {
+    font-size: 15px;
+    }
+
+    .filter-controls {
+    flex-direction: column;
+    gap: 8px;
+    }
+
+    .filter-button {
+    width: 100%;
+    min-width: auto;
+    }
+
+    .chart-container {
+    margin-top: 8px;
+    }
+}
