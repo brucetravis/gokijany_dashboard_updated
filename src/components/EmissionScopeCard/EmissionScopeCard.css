@@ -1,0 +1,188 @@
+.emission-card {
+    border-radius: 12px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    border: 1px solid #e5e7eb;
+    padding: 24px;
+    height: fit-content;
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 24px;
+    gap: 16px;
+}
+
+.card-title {
+    font-size: 18px;
+    font-weight: 600;
+    color: #111827;
+    margin: 0;
+}
+
+.filters-container {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.dropdown-container {
+    position: relative;
+}
+
+.dropdown-button {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 8px 12px;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    background: white;
+    font-size: 14px;
+    color: #374151;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    white-space: nowrap;
+}
+
+.dropdown-button:hover {
+    border-color: #9ca3af;
+    background-color: #f9fafb;
+}
+
+.dropdown-button:focus {
+    outline: none;
+    border-color: #00a654;
+    box-shadow: 0 0 0 3px rgba(0, 166, 84, 0.1);
+}
+
+.dropdown-arrow {
+    transition: transform 0.2s ease;
+}
+
+.dropdown-arrow.open {
+    transform: rotate(180deg);
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    margin-top: 4px;
+    background: white;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+    min-width: 140px;
+}
+
+.dropdown-item {
+    display: block;
+    width: 100%;
+    padding: 8px 12px;
+    border: none;
+    background: none;
+    text-align: left;
+    font-size: 14px;
+    color: #374151;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.dropdown-item:hover {
+    background-color: #f3f4f6;
+}
+
+.dropdown-item:first-child {
+    border-radius: 6px 6px 0 0;
+}
+
+.dropdown-item:last-child {
+    border-radius: 0 0 6px 6px;
+}
+
+.chart-container {
+    width: 100%;
+    min-height: 300px;
+}
+
+.custom-tooltip {
+    background: white;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    padding: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.tooltip-label {
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #111827;
+}
+
+.tooltip-item {
+    font-size: 14px;
+    margin: 4px 0;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .card-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    }
+
+    .filters-container {
+    flex-wrap: wrap;
+    width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .emission-card {
+    padding: 16px;
+    }
+
+    .card-title {
+    font-size: 16px;
+    }
+
+    .filters-container {
+    gap: 8px;
+    }
+
+    .dropdown-button {
+    padding: 6px 10px;
+    font-size: 13px;
+    }
+
+    .chart-container {
+    min-height: 250px;
+    }
+}
+
+@media (max-width: 480px) {
+    .emission-card {
+    padding: 12px;
+    }
+
+    .card-header {
+    gap: 12px;
+    }
+
+    .filters-container {
+    flex-direction: column;
+    align-items: stretch;
+    }
+
+    .dropdown-button {
+    justify-content: space-between;
+    }
+
+    .chart-container {
+    min-height: 200px;
+    }
+}
