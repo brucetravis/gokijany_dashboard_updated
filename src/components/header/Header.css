@@ -3,9 +3,11 @@ display: flex;
 justify-content: space-between;
 align-items: center;
 padding: 16px 24px;
-background-color: #ffffff;
-border-bottom: 1px solid #e5e7eb;
+backdrop-filter: blur(70px);
+background: rgba(0, 166, 84, 0.137);
+border-bottom: 1px solid rgba(0, 166, 84, 0.137);
 min-height: 60px;
+color: #ffffff;
 
 }
 
@@ -15,24 +17,6 @@ align-items: center;
 gap: 12px;
 }
 
-.logo {
-display: flex;
-align-items: center;
-}
-
-.logo-icon {
-background-color: #00a654;
-color: white;
-width: 32px;
-height: 32px;
-display: flex;
-align-items: center;
-justify-content: center;
-font-weight: bold;
-font-size: 14px;
-border-radius: 4px;
-}
-
 .welcome-text {
 display: flex;
 flex-direction: column;
@@ -40,14 +24,14 @@ flex-direction: column;
 
 .welcome-label {
 font-size: 14px;
-color: #6b7280;
+color: #ffffff;
 margin-bottom: 2px;
 }
 
 .user-name {
 font-size: 16px;
 font-weight: 600;
-color: #111827;
+color: #ffffff;
 }
 
 .search-icons-section {
@@ -71,11 +55,11 @@ z-index: 1;
 
 .search-input {
 padding: 10px 12px 10px 40px;
-border: 1px solid #d1d5db;
+border: 1px solid rgba(0, 166, 84, 0.137);
 border-radius: 8px;
 font-size: 14px;
 width: 300px;
-background-color: #ffffff;
+background:  #0c6e59;
 transition: border-color 0.2s ease, box-shadow 0.2s ease;
 }
 
@@ -110,7 +94,7 @@ background-color: #f3f4f6;
 }
 
 .header-icon {
-color: #6b7280;
+color: #ffffff;
 }
 
 .user-profile {
@@ -139,7 +123,7 @@ color: white;
 }
 
 .dropdown-icon {
-color: #6b7280;
+color: #ffffff;
 }
 
 /* Responsive Design */

@@ -6,6 +6,8 @@
     border: 1px solid #e5e7eb;
     min-width: 280px;
     position: relative;
+    backdrop-filter: blur(70px);
+    background: rgba(0, 166, 84, 0.137);
 }
 
 .card-header {
@@ -106,7 +108,7 @@
 }
 
 .value-section {
-    width: 60%;
+    width: 55%;
     height: 10vh;
     background-color: #3f3f3f;
     display: flex;
@@ -137,7 +139,7 @@
 .change-indicator {
     display: flex;
     justify-content: flex-end;
-    width: 40%;
+    width: 45%;
     height: 10vh;
     background-color: #000000;
     align-items: center;

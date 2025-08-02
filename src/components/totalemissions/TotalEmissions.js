@@ -3,13 +3,13 @@ import { ChevronDown, Zap, TrendingDown, TrendingUp } from 'lucide-react';
 import './TotalEmissions.css'
 
 const TotalEmissions = ({ 
-  title = "Total emission for 2022 (MtCO2)",
-  value = "0.02195",
-  changePercentage = 5,
-  changeDirection = "down", // "up" or "down"
-  changeText = "lower to previous year",
+  title,
+  value,
+  changePercentage,
+  changeDirection, 
+  changeText,
   icon: CustomIcon = Zap,
-  dateRange = "Date",
+  dateRange,
   showDateFilter = true,
 }) => {
   const [isDateDropdownOpen, setIsDateDropdownOpen] = useState(false);
