@@ -1,0 +1,79 @@
+header {
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    backdrop-filter: blur(12px);
+    margin-left: 5vw;
+    margin-bottom: 3vh;
+    border-radius: 30px;
+    background-color: rgba(86, 172, 147, 0.5);
+    /* backdrop-filter: blur(12px); */
+    width: 50vw;
+}
+
+.siri {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.siri-ball {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #7f00ff, #e100ff);
+    box-shadow: 0 0 10px #e100ff80;
+    animation: pulse 1.5s infinite;
+    position: absolute;
+    left: 10px;
+}
+
+@keyframes pulse {
+    0%, 100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    50% {
+        transform: scale(1.2);
+        opacity: 0.6;
+    }
+}
+
+
+.siri input {
+    padding-left: 50px;
+    position: relative;
+    border-radius: 50px;
+    width: 350px;
+    height: 45px;
+    background: rgba(18, 61, 42, 0.5);
+    outline: none;
+    color: white;
+}
+
+.siri input::placeholder {
+    color: rgba(161, 161, 161);
+}
+
+.siri .microphone {
+    position: absolute;
+    right: 15px;
+    color: rgba(161, 161, 161);
+}
+
+
+.profile {
+    display: flex;
+    gap: 30px;
+}
+
+
+.profile .profile-img {
+    width: 55px;
+    height: 55px;
+    background-image: url(../../images/profile-pic.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50px;
+}

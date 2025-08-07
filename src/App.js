@@ -4,6 +4,7 @@ import Home from './pages/home/Home';
 import Tracking from './pages/employee_tracking/Tracking';
 import Registration from './pages/registration/Registration';
 import Sidebar from './components/sidebar/Sidebar'
+import Header from './components/header/Header';
 
 function App() {
 
@@ -12,16 +13,22 @@ function App() {
 
   // check if the path is not the root
   const showSidebar = location.pathname !== '/'
+  const showHeader = location.pathname !== '/'
   
   return (
     <div className="App">
-      {showSidebar && <Sidebar />}
 
-      <Routes>
-        <Route path='/home' element={<Home />} />
-        <Route path='/' element={<Registration />} />
-        <Route path='/employee_tracking' element={<Tracking />} />
-      </Routes>
+      {showHeader && <Header />}
+      
+      <div className='app-components '>
+        {showSidebar && <Sidebar />}
+
+        <Routes>
+          <Route path='/home' element={<Home />} />
+          <Route path='/' element={<Registration />} />
+          <Route path='/employee_tracking' element={<Tracking />} />
+        </Routes>
+      </div>
     </div>
   );
 }
