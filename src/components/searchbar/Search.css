@@ -1,0 +1,22 @@
+.search{
+    background-color: rgba(30, 99, 78, 0.4);
+    border-radius: 30px;
+    display: flex;
+    height: 9vh;
+    align-items: center;
+    justify-content: space-around;
+    width: 25vw;
+    color: #ffffff;
+}
+.search input{
+    border: none;
+    background-color: inherit;
+}
+.search input::placeholder{
+    color: #ffffff;
+}
+
+.search .search-container{
+    display: flex;
+    justify-content: space-around;
+}
