@@ -1,0 +1,50 @@
+a, li{
+    list-style: none;
+    color: white;
+    text-decoration: none;
+}
+img{
+    width: 47px;
+    height: 47px;
+    border-radius: 50px;
+}
+.Navigation{
+    width: 90vw;
+    height: 14vh;
+   color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.Navigation .nav{
+    display: flex;
+    justify-content: space-around;
+}
+.Navigation .nav-links{
+    width: 40vw;
+    height: inherit;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Navigation .nav-profile{
+    width: 23vw;
+    display: flex;
+    height: inherit;
+    align-items: center;
+}
+.Navigation .nav-profile .profile{
+    display: flex;
+    width: 84%;
+    height: 10%;
+    align-items: center;
+    justify-content: center;
+}
+.prof-dets{
+    height: 5vh;
+    line-height: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
