@@ -1,0 +1,6 @@
+.emissions{
+    backdrop-filter: blur(70px);
+    background: rgba(0, 166, 84, 0.137);
+    width: 100vw;
+    min-height: 100vh;
+}
