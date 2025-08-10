@@ -1,5 +1,7 @@
 .music-page {
     padding: 80px 280px;
-    background-color: rgb(10, 49, 38);
+    background-color: rgba(72, 150, 128, 0.4);
+    /* background: transparent; */
+    backdrop-filter: blur(100px);
     border-radius: 30px;
 }

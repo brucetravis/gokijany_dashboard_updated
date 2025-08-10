@@ -4,8 +4,9 @@ header {
     align-items: center;
     justify-content: space-between;
     backdrop-filter: blur(12px);
+    margin-top: 10vh;
     margin-left: 5vw;
-    margin-bottom: 3vh;
+    margin-bottom: 2vh;
     border-radius: 30px;
     background-color: rgba(86, 172, 147, 0.5);
     /* backdrop-filter: blur(12px); */

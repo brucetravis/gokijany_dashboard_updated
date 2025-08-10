@@ -1,8 +1,8 @@
 .kasnei-page {
     background-color: rgb(122, 185, 26);
-    padding: 110px 230px;
+    padding: 90px 230px;
     border-radius: 40px;
-    position: absolute;
-    top: 48vh;
-    left: 20vw;
+    /* position: absolute;
+    top: 50vh;
+    left: 20vw; */
 }

@@ -1,8 +1,9 @@
 .payment-div {
     background-color: rgb(10, 49, 38);
-    padding: 110px 170px;
+    padding: 90px 170px;
     border-radius: 40px;
-    position: absolute;
-    top: 48vh;
-    left: -1vw;
+    margin-left: -1vw;
+    /* position: absolute;
+    top: 50vh;
+    left: -1vw; */
 }
