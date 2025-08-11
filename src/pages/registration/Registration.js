@@ -58,7 +58,7 @@ export default function Registration() {
                 type='button' 
                 value='Login'
                 className='login-button'
-                onClick={() => navigate('/home')}
+                onClick={() => navigate('/dashboard')}
               />
             </form>
         </div>

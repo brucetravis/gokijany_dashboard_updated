@@ -1,0 +1,43 @@
+.dashboard-page {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    /* min-height: 100vh; */
+}
+
+
+.chevron-left {
+    background: none;
+    color: white;
+    border: 1px solid #ff6b35;
+    padding: 10px;
+    border-radius: 50px;
+    position: absolute;
+    top: 20%;
+    left: -220px;
+    z-index: 1;
+    transition: background 2s ease;
+    /* color: white; */
+}
+
+.chevron-right {
+    background: none;
+    padding: 10px;
+    color: white;
+    border: 1px solid #ff6b35;
+    border-radius: 50px;
+    position: absolute;
+    top: 20%;
+    right: -150px;
+    z-index: 1;
+    transition: background 0.5s ease;
+    /* color: white; */
+}
+
+.chevron-left:hover,
+.chevron-right:hover {
+    background: rgb(255, 107, 53, 0.5);
+}
+
+

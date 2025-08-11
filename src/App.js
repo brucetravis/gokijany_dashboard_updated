@@ -6,6 +6,7 @@ import Registration from './pages/registration/Registration';
 import Sidebar from './components/sidebar/Sidebar'
 import Header from './components/header/Header';
 import Emission from './pages/emissions/Emission';
+import DashBoard from './pages/dashboard/DashBoard';
 
 function App() {
 
@@ -27,8 +28,9 @@ function App() {
         <Routes>
           <Route path='/home' element={<Home />} />
           <Route path='/' element={<Registration />} />
-          <Route path='/employee_tracking' element={<Tracking />} />
           <Route path='/emissions' element={<Emission />} />
+          <Route path='/dashboard' element={<DashBoard />} />
+          <Route path='/employee_tracking' element={<Tracking />} />
         </Routes>
       </div>
     </div>
