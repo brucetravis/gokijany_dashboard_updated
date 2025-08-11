@@ -1,0 +1,25 @@
+.Properties {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    height: 500px;
+    padding: 1.5rem;
+    transition: all 0.3s ease;
+}
+
+.Properties:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    background: rgba(255, 255, 255, 0.15);
+}
+@media (max-width: 968px) {
+    .Properties {
+        height: 400px;
+    }
+}
+@media (max-width: 640px) {  
+    .Properties {
+        height: 200px;
+    }
+}
