@@ -100,7 +100,7 @@ export default function Sidebar() {
   return (
     <div className='sidebar_container'>
       <div className='sidebar-one'>
-        <div>
+        <div className='layout'>
           <LayoutGrid
             size={25}
             className='text-white'
@@ -132,7 +132,10 @@ export default function Sidebar() {
       </div>
       
       <div>
-        <Settings2 size={24} className='text-white' />
+        <Settings2 
+          size={24} 
+          className='text-white m-2' 
+        />
       </div>
     </div>
   )

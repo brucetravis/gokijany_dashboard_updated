@@ -1,9 +1,9 @@
 .home-page {
     /* background-color: blue; */
-    backdrop-filter: blur(12px);
+    /* backdrop-filter: blur(12px); */
     /* padding: 200px; */
-    border-radius: 50px;
-    padding: 10px;
+    /* border-radius: 50px; */
+    /* padding: 10px; */
     /* border: 5px solid rgba(255, 255, 255, 0.5); */
     position: relative;
 }
@@ -13,17 +13,24 @@
     background-color: rgba(30, 99, 78, 0.8);
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 10px;
+    border-radius: 50px;
 }
 
 .home-two {
     display: flex;
     align-items: center;
     gap: 20px;
-    margin-top: 1vh;
+    margin: 10px;
 }
 
 .tracking-text {
     color: rgba(161, 161, 161);
     font-size: 40px
+}
+
+
+.tracking-alert-div {
+    margin-top: 3vh;
 }

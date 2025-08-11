@@ -1,5 +1,22 @@
 .tracking-div {
-    padding: 250px 150px;
+    padding: 250px 145px;
     background-color: rgb(10, 49, 38);
     border-radius: 30px;
+    margin-right: -1vw;
+    margin-bottom: 1vh;
+    margin-left: -0.5vw;
+    position: relative;
+    /* margin: 15px; */
+    /*margin-left:  */
+}
+
+
+.right-arrows {
+    border-radius: 50px;
+    background-color: rgb(20, 122, 93);
+    padding: 10px;
+    display: flex;
+    gap: 2px;
+    position: absolute;
+    right: -1vw;
 }

@@ -10,7 +10,8 @@ header {
     border-radius: 30px;
     background-color: rgba(86, 172, 147, 0.5);
     /* backdrop-filter: blur(12px); */
-    width: 50vw;
+    /* width: 50vw; */
+    width: 100%;
 }
 
 .siri {

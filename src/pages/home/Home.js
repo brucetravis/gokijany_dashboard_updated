@@ -15,14 +15,14 @@ export default function Home() {
         <div>
           <BigDiv />
 
-          <div className='d-flex align-items-center mt-2 gap-2'>
+          <div className='d-flex align-items-center gap-2'>
             <Payment />
             <Kasnei />
           </div>
         </div>
         
         <div>
-          <div className='d-flex align-items-center gap-5'>
+          <div className='tracking-alert-div d-flex align-items-center gap-5 '>
             <p className='tracking-text'>Tracking</p>
 
             <AlertCircle
@@ -33,6 +33,7 @@ export default function Home() {
           </div>
           <TrackingDiv />
         </div>
+
       </div>
 
       <div className='home-two'>
