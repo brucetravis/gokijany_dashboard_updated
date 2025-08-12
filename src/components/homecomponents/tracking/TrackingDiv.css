@@ -1,13 +1,10 @@
 .tracking-div {
-    padding: 250px 145px;
+    /* padding: 250px 145px; */
+    height: 480px;
+    width: 300px;
     background-color: rgb(10, 49, 38);
     border-radius: 30px;
-    margin-right: -1vw;
-    margin-bottom: 1vh;
-    margin-left: -0.5vw;
     position: relative;
-    /* margin: 15px; */
-    /*margin-left:  */
 }
 
 
@@ -18,5 +15,7 @@
     display: flex;
     gap: 2px;
     position: absolute;
+    top: 50%;
     right: -1vw;
 }
+

@@ -1,6 +1,27 @@
 .big-div {
-    padding: 200px 400px;
+    /* height: 350px; */
+    width: 45vw;
     background-color: rgb(10, 49, 38);
     border-radius: 30px;
-    margin: 10px;
+    padding: 5px;
+}
+
+.small-div {
+    background-color: rgba(30, 206, 156, 0.5);
+    height: 350px;
+    width: 250px;
+    border-radius: 30px;
+    position: relative;
+}
+
+.smaller-div {
+    background-color: rgba(3, 36, 26, 0.5);
+    /* background-color: red; */
+    height: 130px;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px; 
+    position: absolute;
+    bottom: 0;
+    /* z-index: 1; */
 }

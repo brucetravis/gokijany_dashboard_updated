@@ -1,9 +1,11 @@
 .dashboard-page {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    position: relative;
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: space-between; */
+    /* position: relative; */
     /* min-height: 100vh; */
+    height: 100vh;
+    /* background-color: red; */
 }
 
 
@@ -37,7 +39,7 @@
 
 .chevron-left:hover,
 .chevron-right:hover {
-    background: rgb(255, 107, 53, 0.5);
+    background: rgb(255, 107, 53, 0.8);
 }
 
 

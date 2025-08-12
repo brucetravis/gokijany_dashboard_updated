@@ -4,15 +4,11 @@ header {
     align-items: center;
     justify-content: space-between;
     backdrop-filter: blur(12px);
-    margin-top: 10vh;
-    margin-left: 5vw;
-    margin-bottom: 2vh;
+    margin: 10px;
     border-radius: 30px;
-    background-color: rgba(86, 172, 147, 0.5);
-    /* backdrop-filter: blur(12px); */
-    width: 65vw;
+    background: rgba(90, 131, 120, 0.8);
+    width: 60vw;
     margin-left: 20vw;
-    /* width: 100%; */
 }
 
 .siri {

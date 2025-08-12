@@ -15,7 +15,7 @@ export default function Home() {
         <div>
           <BigDiv />
 
-          <div className='d-flex align-items-center gap-2'>
+          <div className='d-flex align-items-center gap-2 m-2'>
             <Payment />
             <Kasnei />
           </div>

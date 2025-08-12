@@ -3,6 +3,8 @@ import './Payment.css'
 
 export default function Payment() {
   return (
-    <div className='payment-div'></div>
+    <div className='payment-div'>
+      <div className='payment-method'></div>
+    </div>
   )
 }

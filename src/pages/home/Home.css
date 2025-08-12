@@ -10,11 +10,12 @@
 
 
 .home-one {
-    background-color: rgba(30, 99, 78, 0.8);
+    /* background-color: rgba(30, 99, 78, 0.8); */
+    background: rgba(90, 131, 120, 0.3);
+    backdrop-filter: 20px;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
+    width: 63vw;
+    padding: 10px;
     border-radius: 50px;
 }
 
@@ -31,6 +32,6 @@
 }
 
 
-.tracking-alert-div {
+/* .tracking-alert-div {
     margin-top: 3vh;
-}
+} */

@@ -1,9 +1,22 @@
 .payment-div {
     background-color: rgb(10, 49, 38);
-    padding: 90px 170px;
+    height: 200px;
+    width: 250px;
+    padding: 10px;
     border-radius: 40px;
-    margin-left: -1vw;
-    /* position: absolute;
-    top: 50vh;
+    margin-left: -2vw;
+    position: relative;
+    /* top: 50vh;
     left: -1vw; */
+}
+
+.payment-method {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    height: 90%;
+    width: 80px;
+    border-radius: 10px;
+    /* background-color: red; */
+    background: rgba(90, 131, 120, 0.3);
 }
