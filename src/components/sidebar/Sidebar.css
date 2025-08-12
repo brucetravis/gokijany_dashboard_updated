@@ -52,7 +52,7 @@
 .custom-tooltip.tooltip-dashboard {
     background: rgba(255, 255, 255, 0.05);
     border: 2px solid rgba(255, 255, 255, 0.5);
-    backdrop-filter: blur(20px);
+    backdrop-filter: var(--backdrop-filter);
     font-size: 18px;
     /* background-color: #4ADE80; 
     /* color: #000; 
@@ -62,7 +62,7 @@
 .custom-tooltip.tooltip-categories {
     background: rgba(255, 255, 255, 0.05);
     border: 2px solid rgba(255, 255, 255, 0.5);
-    backdrop-filter: blur(20px);
+    backdrop-filter: var(--backdrop-filter);
     font-size: 18px;
     /* background-color: #60a5fA; 
     /* color: #fff; 
@@ -72,7 +72,7 @@
 .custom-tooltip.tooltip-tracking {
     background: rgba(255, 255, 255, 0.05);
     border: 2px solid rgba(255, 255, 255, 0.5);
-    backdrop-filter: blur(20px);
+    backdrop-filter: var(--backdrop-filter);
     font-size: 20px;
     /* background-color: #4d13fa;
     color: #fff; 
@@ -82,7 +82,7 @@
 .custom-tooltip.tooltip-power {
     background: rgba(255, 255, 255, 0.05);
     border: 2px solid rgba(255, 255, 255, 0.5);
-    backdrop-filter: blur(20px);
+    backdrop-filter: var(--backdrop-filter);
     font-size: 18px;
     /* background-color: #ff0501;
     color: #fff; 
@@ -92,7 +92,7 @@
 .custom-tooltip.tooltip-report {
     background: rgba(255, 255, 255, 0.05);
     border: 2px solid rgba(255, 255, 255, 0.5);
-    backdrop-filter: blur(20px);
+    backdrop-filter: var(--backdrop-filter);
     font-size: 18px;
     /* background-color: #38BDF8;
     color: #000; 
@@ -102,7 +102,7 @@
 .custom-tooltip.tooltip-logout {
     background: rgba(255, 255, 255, 0.05);
     border: 2px solid rgba(255, 255, 255, 0.5);
-    backdrop-filter: blur(20px);
+    backdrop-filter: var(--backdrop-filter);
     font-size: 18px;
     /* background-color: #F87171;
     color: #000; 

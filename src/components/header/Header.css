@@ -1,10 +1,10 @@
 header {
-    padding: 15px;
+    padding: 2px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     backdrop-filter: blur(12px);
-    margin: 10px;
+    margin: 5px;
     border-radius: 30px;
     background: rgba(90, 131, 120, 0.8);
     width: 60vw;
@@ -69,8 +69,8 @@ header {
 
 
 .profile .profile-img {
-    width: 55px;
-    height: 55px;
+    width: 40px;
+    height: 40px;
     background-image: url(../../images/profile-pic.jpg);
     background-position: center;
     background-size: cover;

@@ -1,6 +1,14 @@
 .emissions{
     background: transparent;
-    min-height: 100vh;
+    height: 95vh;
+    width: 90vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(30, 30, 35, 0.35);
+    backdrop-filter: var(--backdrop-filter);
+    border-radius: var(--border-radius);
+    padding: 10px; 
 }
 
 .emissions .emissions-container{
@@ -12,7 +20,7 @@
 .emissions .emissions-container .emission{
     display: grid;
     grid-template-columns: 1fr 350px;
-    gap: 2rem;
+    gap: 1rem;
     width: 100%;
 }
 
@@ -20,26 +28,26 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     gap: 1rem;
-    margin-bottom: 2rem;
+    margin-bottom: 0.5rem;
 }
 
 .emission-personal {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 1rem;
 }
 
 .title{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 2rem;
+    margin-bottom: 0.5rem;
     position: relative;
 }
 
 .title h3 {
-    font-size: 1.8rem;
-    font-weight: 600;
+    font-size: 1.3rem;
+    font-weight: 400;
     color: #ffffff;
 }
 
@@ -65,15 +73,15 @@
     padding: 0.7rem 1rem;
     background: rgba(255, 255, 255, 0.05);
     border: none;
-    border-radius: 20px;
+    border-radius: var(--border-radius);
     color: #ffffff;
     cursor: pointer;
     backdrop-filter: blur(10px);
-    transition: all 0.3s ease;
+    transition: var(--transition);
 }
 
 .hamburger-btn:hover {
-    background: rgba(255, 255, 255, 0.1);
+    background: var(--secondary-color);
 }
 
 .current-tab {
@@ -94,7 +102,7 @@
     height: 2px;
     background: #ffffff;
     border-radius: 1px;
-    transition: all 0.3s ease;
+    transition: var(--transition);
 }
 
 .hamburger.open span:nth-child(1) {
@@ -114,7 +122,7 @@
     top: 100%;
     right: 0;
     background: rgba(30, 30, 30, 0.95);
-    backdrop-filter: blur(20px);
+    backdrop-filter: var(--backdrop-filter);
     border-radius: 15px;
     padding: 1rem;
     min-width: 200px;
@@ -123,7 +131,7 @@
     opacity: 0;
     visibility: hidden;
     transform: translateY(-10px);
-    transition: all 0.3s ease;
+    transition: var(--transition);
 }
 
 .mobile-menu.open {
@@ -156,34 +164,36 @@
 }
 
 .btn {
-    padding: 0.7rem 1.5rem;
-    border-radius: 20px;
+    padding: 0.2rem 1rem;
+    border-radius: var(--border-radius);
     text-decoration: none;
     color: #ffffff;
     font-weight: 500;
     font-size: 0.9rem;
-    transition: all 0.3s ease;
+    transition: var(--transition);
     background: transparent;
     border: none;
     cursor: pointer;
+    border: 1px solid rgb(255, 255, 255, 0.2);
 }
 
 .active-btn {
     background: linear-gradient(135deg, #ff6b35 0%, #ff8c42 100%);
     box-shadow: 0 4px 15px rgba(255, 107, 53, 0.3);
+    border: none;
 }
 
 .emission-stats {
     display: flex;
     flex-direction: column;
-    gap: 1.5rem;
+    gap: 0.3rem;
     min-height: fit-content;
 }
 
 .emission-personal {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 1rem;
     height: fit-content;
 }
 

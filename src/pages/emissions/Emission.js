@@ -13,7 +13,7 @@ export default function Emission() {
 
   const handleTabChange = (tab) => {
     setActiveTab(tab)
-    setIsMenuOpen(false) // Close menu when tab is selected
+    setIsMenuOpen(false) 
   }
 
   const renderMainContent = () => {
@@ -77,13 +77,11 @@ export default function Emission() {
 
   return (
     <div className='emissions'>
-        <Navigation/>
         <div className='emissions-container'>
           <div className='emission'>
             <div className='emission-stats'>
               <div className='title'>
                 <h3>Personal Cabinet</h3>
-                
                 <nav className='title-nav desktop-nav'>
                   <button 
                     className={activeTab === 'cabinet' ? "btn active-btn" : "btn"}
@@ -106,7 +104,6 @@ export default function Emission() {
                     Statistics
                   </button>
                 </nav>
-
                 <div className='mobile-nav'>
                   <button 
                     className='hamburger-btn'
