@@ -1,8 +1,8 @@
 .dashboard-page {
-    /* display: flex; */
-    /* align-items: center; */
-    /* justify-content: space-between; */
-    /* position: relative; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
     /* min-height: 100vh; */
     height: 100vh;
     /* background-color: red; */
@@ -12,14 +12,14 @@
 .chevron-left {
     background: none;
     color: white;
-    border: 1px solid #ff6b35;
+    border: 2px solid #ff6b35;
     padding: 10px;
     border-radius: 50px;
     position: absolute;
-    top: 20%;
+    top: 30%;
     left: -220px;
     z-index: 1;
-    transition: background 2s ease;
+    transition: background 0.5s ease;
     /* color: white; */
 }
 
@@ -27,10 +27,10 @@
     background: none;
     padding: 10px;
     color: white;
-    border: 1px solid #ff6b35;
+    border: 2px solid #ff6b35;
     border-radius: 50px;
     position: absolute;
-    top: 20%;
+    top: 30%;
     right: -150px;
     z-index: 1;
     transition: background 0.5s ease;
@@ -42,4 +42,28 @@
     background: rgb(255, 107, 53, 0.8);
 }
 
+.carousel-indicators {
+    /* background-color: red; */
+    position: absolute;
+    bottom: -15px;
+    left: 35%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 8px;
+}
+
+
+.indicator {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 2px solid white;
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.indicator.active {
+    background-color: white;
+}
 

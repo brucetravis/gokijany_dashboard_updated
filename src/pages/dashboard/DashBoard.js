@@ -36,6 +36,15 @@ export default function DashBoard() {
         
         <div>
             {pages[currentPage]}
+
+            <div className='carousel-indicators'>
+                {pages.map((_, index) => (
+                    <span 
+                        key={index}
+                        className={`indicator ${currentPage === index ? 'active' : ''}`}
+                    />
+                ))}
+            </div>
         </div>
 
         <button

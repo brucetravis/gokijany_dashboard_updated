@@ -20,3 +20,15 @@
     /* background-color: red; */
     background: rgba(90, 131, 120, 0.3);
 }
+
+.left-arrows {
+    border-radius: 50px;
+    background-color: rgb(20, 122, 93);
+    padding: 10px;
+    display: flex;
+    gap: 2px;
+    position: absolute;
+    top: 40%;
+    /* right: -1vw; */
+    left: -1vw;
+}
