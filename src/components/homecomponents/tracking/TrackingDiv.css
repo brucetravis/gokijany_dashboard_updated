@@ -2,7 +2,7 @@
     /* padding: 250px 145px; */
     height: 480px;
     width: 300px;
-    background-color: rgb(10, 49, 38);
+    background-color: rgb(17, 43, 29);
     border-radius: 30px;
     position: relative;
 }
@@ -10,7 +10,7 @@
 
 .right-arrows {
     border-radius: 50px;
-    background-color: rgb(20, 122, 93);
+    background-color: rgba(44, 77, 60);
     padding: 10px;
     display: flex;
     gap: 2px;

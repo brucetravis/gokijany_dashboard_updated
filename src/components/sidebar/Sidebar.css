@@ -3,7 +3,7 @@
   flex-direction: column;
   align-items: center;
   backdrop-filter: blur(70px);
-  background: rgba(90, 131, 120, 0.3);
+  background: rgb(58, 82, 51);
   border-radius: 50px;
   border: 2px solid rgba(13, 92, 70, 0.2);
   height: 250px;
@@ -15,14 +15,14 @@
     align-items: center;
     flex-direction: column;
     gap: 30px;
-    background-color: rgb(7, 68, 51, 0.8);
+    background-color: rgb(17, 43, 29);
     padding: 10px;
     border-radius: 50px;
     margin: 3px;
 }
 
 .layout {
-    background-color: rgba(30, 206, 156, 0.5);
+    background-color: rgba(9, 130, 70);
     padding: 10px;
     border-radius: 50px;
 }

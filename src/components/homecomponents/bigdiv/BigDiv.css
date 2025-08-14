@@ -1,13 +1,13 @@
 .big-div {
     /* height: 350px; */
     width: 45vw;
-    background-color: rgb(10, 49, 38);
+    background-color: rgb(20, 42, 26);
     border-radius: 30px;
     padding: 5px;
 }
 
 .small-div {
-    background-color: rgba(30, 206, 156, 0.5);
+    background-color: rgba(14, 130, 68);
     height: 350px;
     width: 250px;
     border-radius: 30px;
@@ -15,12 +15,13 @@
 }
 
 .smaller-div {
-    background-color: rgba(3, 36, 26, 0.5);
+    background-color: rgba(56, 153, 56);
     /* background-color: red; */
     height: 130px;
     width: 100%;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px; 
+    /* border-top-left-radius: 15px; */
+    /* border-top-right-radius: 15px; */
+    border-radius: 15px;
     position: absolute;
     bottom: 0;
     /* z-index: 1; */
